@@ -38,7 +38,7 @@ The solution demonstrates backend API design, Node.js proficiency, RESTful conve
 |---|---|
 | API Base URL | `https://bajaj-finserv-api-1-mo1p.onrender.com` |
 | POST Endpoint | `https://bajaj-finserv-api-1-mo1p.onrender.com/bfhl` |
-| Frontend Tester | `https://bajaj-finserv-api-1-mo1p.onrender.com` |
+| Frontend Tester | `https://bespoke-blancmange-eeb585.netlify.app/` |
 
 The service is live and accepts requests at any time. The frontend tester allows reviewers to interact with the API directly in the browser without needing Postman or curl.
 
