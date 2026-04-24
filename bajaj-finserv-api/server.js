@@ -277,15 +277,16 @@ app.post("/bfhl", (req, res) => {
     const result = process(data);
 
     res.json({
-      user_id: "yourname_ddmmyyyy",
-      email_id: "your@email.com",
-      college_roll_number: "yourroll",
-      ...result
-    });
+  user_id: "kamaladdithan_23072006",
+  email_id: "kb4127@srmist.edu.in",
+  college_roll_number: "RA2311003020033",
+  ...result
+});
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
-app.listen(3000, () => console.log("Server running"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log("Server running"));
